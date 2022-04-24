@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="script.js"></script>
+        <link href="style.css" rel="stylesheet">
+        <meta charset="UTF-8">
+        <title>PARFAIT Clément - Mes projets</title>
+    </head>
+    <body>
+        <div class="header bg-dark">
+            <div class="row">
+                <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+                    <img src="image/C.png" class="icone img-fluid navbar-brand"></img>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenuPrincipal" aria-controls="#navbarMenuPrincipal" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon bg-dark"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarMenuPrincipal">
+                        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html"><h4 class="text-muted">Accueil</h4></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="projet.html"><h4 class="text-muted">Mes projets</h4></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="parcours.html"><h4 class="text-muted">Mon parcours</h4></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="CGU.html"><h4 class="text-muted">CGU</h4></a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="jumbotron text-light">
+            <div class="row">
+                <div class="col-1"></div>
+                <div class="col-4">
+                    <b><h1>PARFAIT Clément</h1></b>
+                </div>
+                <div class="col-4">
+                    <br></br>
+                    <h1>Etudiant en BTS SIO</h1>
+                    <br></br>
+                </div>
+            </div>
+        </div>
+        <br></br>
+        <div class="container bg-light center">
+            <br></br>
+            <h2 class="center">Mes projets</h2>
+            <h3 class="center text-muted">Veuillez sélectionner ce que vous souhaitez regarder avec la liste déroulante !</h3>
+            <br></br>
+            <select class="center" id="Project" onclick="getProject();">
+                <option value="projet1">Application WEB sous serveur Python</option>
+                <option value="projet2">Création d'un site sous Bootstrap</option>
+                <option value="projet3">Mise en place d'une application WEB de note de frais</option>
+                <option value="projet4">Quelques documentations...</option>
+                <option value="projet5">Le jeu du pendu</option>
+                <option value="projet6">Mes projets en gestion de base de donnée</option>
+                <option value="projet7">Site Wordpress</option>
+            </select>
+            <br></br>
+            <div id="Project1">
+                <h3 class="center">Application WEB sous serveur Python</h3>
+                <p class="center"><b>Synopsis : </b>Il s'agit d'une application WEB dont le but est d'injecter dans une base de donnée des données avec un formulaire html. Cette application sert à répertorier les anecdotes des gens grâce à ce formulaire. </p>
+                <p><b>But : </b>Réaliser une application WEB sous serveur python avec Flask en 2 mois. Le projet a été réalisé en année de terminale dans le cadre de la matière "Numérique et Science de l'Informatique".</p>
+                <br></br>
+                <h3 class="center">Compétences acquises</h3>
+                <p class="center">- Apprentissage du framework "Flask"</p>
+                <p class="center">- Approfondissement du HTML CSS et Javascript</p>
+                <p class="center">- Premier pas dans les bases MySQL</p>
+                <p class="center">- Utilisation du langage python</p>
+                <br></br>
+                <img class="img-fluid" src="image/Python1.PNG">
+                <br></br>
+                <img class="img-fluid" src="image/Python2.PNG">
+                <br></br>
+                <img class="img-fluid" src="image/Python3.PNG">
+                <br></br>
+                <img class="img-fluid" src="image/Python4.PNG">
+            </div>
+            <div id="Project2">
+                <h3 class="center">Création d'un site avec Bootstrap</h3>
+                <p class="center"><b>Synopsis : </b>Il s'agit d'un site web dont la contrainte était l'utilisation de Bootstrap. Ce projet devait être fait seul et devait être sur un thème de notre choix. Le site que j'ai conçu est un site de promotion de jeu de rôle. </p>
+                <p><b>But : </b>Réaliser un site web en utilisant bootstrap et en le mettant sur un serveur pour y accéder à distance..</p>
+                <br></br>
+                <h3 class="center">Compétences acquises</h3>
+                <p class="center">- </p>
+                <p class="center">- Approfondissement du HTML CSS et Javascript</p>
+                <p class="center">- Apprentissage et maîtrise du framework "Bootstrap"</p>
+                <p class="center">- Mise en place d'un serveur d'hébergement et mise en place d'une connexion à distance pour le site.</p>
+                <br></br>
+                <img class="img-fluid" src="image/Bootstrap1.PNG">
+                <br></br>
+                <img class="img-fluid" src="image/Bootstrap2.PNG">
+                <br></br>
+                <img class="img-fluid" src="image/Bootstrap3.PNG">
+                <br></br>
+
+            </div>
+            <div id="Project3">
+                <h3 class="center">Mise en place d'une application WEB de note de frais</h3>
+                <p class="center"><b>Synopsis : </b>Il s'agit d'une application hébergé sur un site web dont le but est de pouvoir créer, valider et vérifier des notes de frais dans une base de donnéee.</p>
+                <p><b>But : </b>Réaliser une application WEB complète avec une base de donnée créée au préalable, l'activité est divisé en deux.</p>
+                <br></br>
+                <h3 class="center">Compétences acquises</h3>
+                <p class="center">- </p>
+                <p class="center">- Approfondissement du HTML CSS et Javascript</p>
+                <p class="center">- Apprentissage et maîtrise du framework "Bootstrap"</p>
+                <p class="center">- Utilisation des requêtes SQL dans du code PHP</p>
+                <p class="center">- Utilisation du langage PHP pour se connecter à une base de donnée.</p>
+                <p class="center">- Création d'une base de donnée contenant toutes les informations nécessaires pour être utiliser.</p>
+                <p class="center">- Mise en place d'un système de sécurité pour veiller à la protection de l'application.</p>
+                <br></br>
+                <img class="img-fluid" src="image/Frais1.PNG">
+                <br></br>
+                <img class="img-fluid" src="image/Frais2.PNG">
+                <br></br>
+                <img class="img-fluid" src="image/Frais3.PNG">
+                <br></br>
+            </div>
+            <div id="Project4">
+                <h3 class="center">Quelques documentations</h3>
+                <img class="img-fluid" src="image/Doc1.PNG">
+                <br></br>
+                <img class="img-fluid" src="image/Doc2.PNG">
+                <br></br>
+                <img class="img-fluid" src="image/Doc3.PNG">
+            </div>
+            <div id="Project5">
+                <h3 class="center">Le Jeu du Pendu</h3>
+                <p class="center"><b>Synopsis : </b>A l'aide du langage C#, réaliser un jeu du pendu étape par étape.</p>
+                <p><b>But : </b>Réaliser un projet en C# en utilisant le langage et le principe de programmation orienté objet.</p>
+                <br></br>
+                <h3 class="center">Compétences acquises</h3>
+                <p class="center">- </p>
+                <p class="center">- Connaissance du langage C#</p>
+                <p class="center">- Utilisation et apprentissage de la programmation orienté objet.</p>
+                <p class="center">- Utilisation des classes.</p>
+                <br></br>
+                <img class="img-fluid" src="image/C1.PNG">
+                <br></br>
+                <img class="img-fluid" src="image/C2.PNG">
+                <br></br>
+                <img class="img-fluid" src="image/C3.PNG">
+            </div>
+            <div id="Project6">
+                <h3>Mes projets en gestion de base de donnée</h3>
+                <br></br>
+                <img class="img-fluid" src="image/BDD1.PNG">
+                <br></br>
+                <img class="img-fluid" src="image/BDD2.PNG">
+                <br></br>
+                <img class="img-fluid" src="image/BDD3.PNG">
+            </div>
+            <div id="Project7">
+                <h3>Site Wordpress</h3>
+                <p class="center"><b>Synopsis : </b>En utilisant Wordpress, réaliser un site traitant du thème de la Cybersécurité.</p>
+                <p><b>But : </b>Réaliser un site en utilisant seulement Wordpress, quelques extensions et un thème.</p>
+                <br></br>
+                <h3 class="center">Compétences acquises</h3>
+                <p class="center">- </p>
+                <p class="center">- Apprentisssage de Wordpress</p>
+                <p class="center">- Approfondissement dess connaissances de Cybersécurité en répertoriant des articles dans le site.</p>
+                <p class="center">- Utilisation des bases de donnée dans le cadre d'une boutique</p>
+                <br></br>
+                <img class="img-fluid" src="image/Wordpress1.PNG">
+                <br></br>
+                <img class="img-fluid" src="image/Wordpress2.PNG">
+                <br></br>
+            </div>
+        </div>
+    </body>
+</html>

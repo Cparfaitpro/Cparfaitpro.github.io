@@ -1,0 +1,86 @@
+.navbar-brand {
+    color:darkorange;
+}
+
+.jumbotron {
+    background-image: url(image/jumbotron.jpg);
+    background-size:cover;
+}
+
+body {
+    background-image: url(image/repeat.jpg);
+    background-repeat: inherit;
+}
+
+#who {
+    padding-top: 30px;
+}
+
+.bordure {
+    border-color: black;
+    border-left: solid;
+    
+}
+
+.logo {
+    width:20%;
+}
+
+.nav-item {
+    padding-right: 50px;
+}
+
+.nav-link {
+    color: #adadad;
+}
+
+#skill {
+    text-align: center;
+}
+
+.comp {
+    width: 15%;
+}
+
+.icone {
+    width:5%;
+}
+
+.center {
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+}
+
+#navbarMenuPrincipal {
+    right: 0;
+    text-align:right;
+}
+
+#Project1 {
+    display:none;
+}
+
+#Project2 {
+    display:none;
+}
+
+#Project3 {
+    display:none;
+}
+
+#Project4 {
+    display:none;
+}
+
+#Project5 {
+    display:none;
+}
+
+#Project6 {
+    display:none;
+}
+
+#Project7 {
+    display:none;
+}
