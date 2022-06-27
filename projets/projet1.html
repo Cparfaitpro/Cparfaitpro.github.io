@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
         <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="script.js"></script>
-        <link href="style.css" rel="stylesheet">
+        <script src="../js/bootstrap.min.js"></script>
+        <script src="../script.js"></script>
+        <link href="../style.css" rel="stylesheet">
         <meta charset="UTF-8">
         <title>PARFAIT Clément - Mes projets</title>
     </head>
@@ -13,7 +13,7 @@
         <div class="header bg-dark">
             <div class="row">
                 <nav class="navbar navbar-expand-lg navbar-light bg-dark">
-                    <img src="image/C.png" class="icone img-fluid navbar-brand"></img>
+                    <img src="../image/C.png" class="icone img-fluid navbar-brand"></img>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenuPrincipal" aria-controls="#navbarMenuPrincipal" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon bg-dark"></span>
                     </button>
@@ -50,25 +50,26 @@
             </div>
         </div>
         <br></br>
-        <div class="container bg-light center">
+        <div id="Project1" class="container bg-light">
             <br></br>
-            <h2 class="center">Mes projets</h2>
-            <h3 class="center text-muted">Veuillez sélectionner ce que vous souhaitez regarder avec la liste déroulante !</h3>
+            <h3 class="center">Application WEB sous serveur Python</h3>
+            <p class="center"><b>Synopsis : </b>Il s'agit d'une application WEB dont le but est d'injecter dans une base de donnée des données avec un formulaire html. Cette application sert à répertorier les anecdotes des gens grâce à ce formulaire. </p>
+            <p><b>But : </b>Réaliser une application WEB sous serveur python avec Flask en 2 mois. Le projet a été réalisé en année de terminale dans le cadre de la matière "Numérique et Science de l'Informatique".</p>
             <br></br>
-            <select class="center" id="Project">
-                <option>Veuillez choisir un projet</option>
-                <option value="projet8">Stage auprès de l'association HEROBRINE</option>
-                <option value="projet1">Application WEB sous serveur Python</option>
-                <option value="projet2">Création d'un site sous Bootstrap</option>
-                <option value="projet3">Mise en place d'une application WEB de note de frais</option>
-                <option value="projet4">Quelques documentations...</option>
-                <option value="projet5">Le jeu du pendu</option>
-                <option value="projet6">Mes projets en gestion de base de donnée</option>
-                <option value="projet7">Site Wordpress</option>
-            </select>
+            <h3 class="center">Compétences acquises</h3>
+            <p class="center">- Apprentissage du framework "Flask"</p>
+            <p class="center">- Approfondissement du HTML CSS et Javascript</p>
+            <p class="center">- Premier pas dans les bases MySQL</p>
+            <p class="center">- Utilisation du langage python</p>
             <br></br>
-            <button onclick="getProject();" class="center">Valider</button>
-            <br></br>
+            <div class="imageFix center">
+                <img class="img-fluid" src="../image/Python1.PNG">
+                <br></br>
+                <img class="img-fluid" src="../image/Python2.PNG">
+                <br></br>
+                <img class="img-fluid" src="../image/Python3.PNG">
+                <br></br>
+                <img class="img-fluid" src="../image/Python4.PNG">
             </div>
         </div>
     </body>

@@ -4,68 +4,29 @@ function getProject()
     switch(variable)
     {
         case "projet1" :
-            document.getElementById("Project1").style.display="block";
-            document.getElementById("Project2").style.display="none";
-            document.getElementById("Project3").style.display="none";
-            document.getElementById("Project4").style.display="none";
-            document.getElementById("Project5").style.display="none";
-            document.getElementById("Project6").style.display="none";
-            document.getElementById("Project7").style.display="none";
+            window.location.href="projets/projet1.html";
             break;
         case "projet2" :
-            document.getElementById("Project1").style.display="none";
-            document.getElementById("Project2").style.display="block";
-            document.getElementById("Project3").style.display="none";
-            document.getElementById("Project4").style.display="none";
-            document.getElementById("Project5").style.display="none";
-            document.getElementById("Project6").style.display="none";
-            document.getElementById("Project7").style.display="none";
+            window.location.href="projets/projet2.html";
             break;
             
         case "projet3" :
-            document.getElementById("Project1").style.display="none";
-            document.getElementById("Project2").style.display="none";
-            document.getElementById("Project3").style.display="block";
-            document.getElementById("Project4").style.display="none";
-            document.getElementById("Project5").style.display="none";
-            document.getElementById("Project6").style.display="none";
-            document.getElementById("Project7").style.display="none";
+            window.location.href="projets/projet3.html";
             break;
         case "projet4" :
-            document.getElementById("Project1").style.display="none";
-            document.getElementById("Project2").style.display="none";
-            document.getElementById("Project3").style.display="none";
-            document.getElementById("Project4").style.display="block";
-            document.getElementById("Project5").style.display="none";
-            document.getElementById("Project6").style.display="none";
-            document.getElementById("Project7").style.display="none";
+            window.location.href="projets/projet4.html";
             break;
         case "projet5" :
-            document.getElementById("Project1").style.display="none";
-            document.getElementById("Project2").style.display="none";
-            document.getElementById("Project3").style.display="none";
-            document.getElementById("Project4").style.display="none";
-            document.getElementById("Project5").style.display="block";
-            document.getElementById("Project6").style.display="none";
-            document.getElementById("Project7").style.display="none";
+            window.location.href="projets/projet5.html";
             break;
         case "projet6" :
-            document.getElementById("Project1").style.display="none";
-            document.getElementById("Project2").style.display="none";
-            document.getElementById("Project3").style.display="none";
-            document.getElementById("Project4").style.display="none";
-            document.getElementById("Project5").style.display="none";
-            document.getElementById("Project6").style.display="block";
-            document.getElementById("Project7").style.display="none";
+            window.location.href="projets/projet6.html";
             break;
         case "projet7" :
-            document.getElementById("Project1").style.display="none";
-            document.getElementById("Project2").style.display="none";
-            document.getElementById("Project3").style.display="none";
-            document.getElementById("Project4").style.display="none";
-            document.getElementById("Project5").style.display="none";
-            document.getElementById("Project6").style.display="none";
-            document.getElementById("Project7").style.display="block";
+            window.location.href="projets/projet7.html";
+            break;
+        case "projet8" :
+            window.location.href="projets/projet8.html";
             break;
     }
 }

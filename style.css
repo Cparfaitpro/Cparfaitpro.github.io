@@ -57,30 +57,6 @@ body {
     text-align:right;
 }
 
-#Project1 {
-    display:none;
-}
-
-#Project2 {
-    display:none;
-}
-
-#Project3 {
-    display:none;
-}
-
-#Project4 {
-    display:none;
-}
-
-#Project5 {
-    display:none;
-}
-
-#Project6 {
-    display:none;
-}
-
-#Project7 {
-    display:none;
+.imageFix {
+    width : 50%;
 }
