@@ -9,7 +9,6 @@ function getProject()
         case "projet2" :
             window.location.href="projets/projet2.html";
             break;
-            
         case "projet3" :
             window.location.href="projets/projet3.html";
             break;
@@ -28,5 +27,18 @@ function getProject()
         case "projet8" :
             window.location.href="projets/projet8.html";
             break;
+        case "projet9" :
+            window.location.href="projets/projet9.html";
+            break;
+        case "projet10" :
+            window.location.href="projets/projet10.html";
+            break;
+        case "projet11" :
+            window.location.href="projets/projet11.html";
+            break;
+        case "projet12" :
+            window.location.href="projets/projet12.html";
+            break;
+
     }
 }
