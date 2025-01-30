@@ -203,6 +203,11 @@ p {
     border-radius: 50px;
     padding-right: 80px;
     font-size:medium;
+    background-color: #3e6b89;
+}
+
+.btn-github:hover {
+    background-color: #005289;
 }
 
 .card-text {
